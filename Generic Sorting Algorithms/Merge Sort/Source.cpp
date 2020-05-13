@@ -2,8 +2,11 @@
 #include<conio.h>
 #include<vector>
 
-void mergesort(std::vector<int>&,int,int);
+void mergesort(std::vector<int>&,int,int); 
+//Description-- 1) divides the array into to part recursively, 2) Calls the merge function recursively on each sub-array, 3)Sorted array obtained  
+
 void merge(int, int, int, std::vector<int>& );
+//Description-- Combines to arrays on the basis of comparison. Each array can be considered a stack and every time the logic choses the bigger number or smaller number (Depending upon the sort, here smaller) from the two numbers on the top the stack and pushes it in a vector. Continuously doing this creates an ascending order array consisting the two considered sub-arrays.
 
 int main() {
 	int size,val;
