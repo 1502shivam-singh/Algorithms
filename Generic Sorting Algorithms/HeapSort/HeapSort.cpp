@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<vector>
 
-//TODO : 1) Max heapify function ,2) New Max heap creator 
+//ALGO : 1) Max heapify function ,2) New Max heap creator 
 // 3), Heapsort(){	New Max heap creator{Max heapify function};
 //					for(n.....2)
 //						swap top node in heap with last;
@@ -80,13 +80,6 @@ void heap::HeapSort(std::vector<int>& structure) {
 		heap::Max_heapify(structure, 0,heap::heap_size);
 	}
 }
-
-//void heap::Heap_creator(std::vector<int> heap, void(*Max)(std::vector<int>, int, int(*a)(int), int(*b)(int), int(*c)(int, int, int)), int(*right)(int), int(*left)(int), int(*maxoff)(int, int, int)) {
-//	for (int i = ((size - 1) / 2) + 1; i >= 0; i--) {
-//		Max(heap, i, right, left, maxoff);
-//	}
-//}
-
 int main() {
 	std::vector<int> vec{3,4,10,0,1,2};
 	heap* Heap = new heap(vec);
