@@ -90,8 +90,8 @@ int main() {
 		vec.push_back(value);
 	}
 	std::cout << "\n\n";
-	heap* Heap = new heap(vec);
-	Heap->HeapSort(vec);	
+	heap* Heap = new heap(vec); //Calling the constructor of the class
+	Heap->HeapSort(vec);	//Call to the Sorting function
 	for (int i = 0; i < count;i++) {
 		std::cout << vec[i] << " ";
 	}
