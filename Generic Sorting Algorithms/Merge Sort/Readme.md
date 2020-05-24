@@ -1,4 +1,7 @@
-Merge Sort implemented from scratch -
+# Merge Sort 
+
+implemented from scratch -
+
 A great example for understanding the Divide and Conquer Paradigm 
 This sort comprises of two main functions Mergesort and Merge.
 
