@@ -1,4 +1,4 @@
-# Generic-Insertion-Sort
+# Generic Insertion Sort
 
 implemented from scratch.
 
