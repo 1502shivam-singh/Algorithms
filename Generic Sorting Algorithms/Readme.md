@@ -1,1 +1,1 @@
-<h2> Implemented Generic Sorting Algorithms from scratch in C++ </h2>
+<h3> Implemented Generic Sorting Algorithms from scratch in C++ </h3>
