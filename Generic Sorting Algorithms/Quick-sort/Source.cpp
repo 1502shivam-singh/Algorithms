@@ -4,6 +4,27 @@
 #include<stdlib.h>
 #include<time.h>
 
+/*
+Algorithm -
+
+QuickSort(Arr&,last){
+	function Partition(Arr&,last);
+	QuickSort(Arr&,last_left);
+	QuickSort(Arr&,last_right);
+}
+
+Partition algo. needs triple swapper(for lomuto partition)
+
+
+
+Partition function(){
+//loop start .. end;
+	if->vec[start]>=vec[end];
+	{tripleswapper(start,end);}
+	else{Do nothing;]
+	}
+*/
+
 void QuickSort(std::vector<int>& vec, int p, int r);
 int Partition(std::vector<int>&, int, int);
 void swap(int& a, int& b);
