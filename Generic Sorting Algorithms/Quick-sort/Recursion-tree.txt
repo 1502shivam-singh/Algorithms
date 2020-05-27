@@ -1,0 +1,15 @@
+Recursion tree (Quick-Sort)
+
+for a 5-element array [5,3,2,4,9]
+
+/*The 1() labelled function is the for quicksorts on the left of pivot (or simply the first quicksort recursive call inside the function)
+ and 2() is the second recursive call inside the quicksort function*/
+
+1(vec, 0, 3) -- q=4
+	1(vec, 0, 1) -- q=2
+		1(vec, 0, -1) -- q=0
+		2(vec, 1, 1) -- q=0
+	1(vec, 0, 1) -- q=2
+	2(vec, 3, 3) -- q=2
+1(vec, 0, 3) -- q=4
+2(vec, 5, 4) -- q=4
