@@ -10,7 +10,7 @@ QuickSort(Arr&,last){
 	QuickSort(Arr&,last_right);
 }
 
-Partition algo. needs triple swapper(for lomuto partition)
+Partition algo. needs triple swapper
 
 
 
