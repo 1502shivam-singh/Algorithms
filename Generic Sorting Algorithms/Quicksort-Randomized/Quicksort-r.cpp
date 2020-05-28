@@ -5,10 +5,11 @@
 #include<time.h>
 #include<random>
 
-void QuickSort(std::vector<int>& vec, int p, int r);
-int Partition(std::vector<int>&, int, int);
-void randompivot(std::vector<int>& vec, int p, int r);
-void swap(int& a, int& b);
+void QuickSort(std::vector<int>& vec, int p, int r);	//The main function for the sort
+int Partition(std::vector<int>&, int, int);	//For partitioning the subarrays
+void randompivot(std::vector<int>& vec, int p, int r);	
+//For choosing the random pivot and making the switch using swap to make it the pivot 
+void swap(int& a, int& b);	//for swapping two numbers
 
 int main() {
 	srand(time(0));
@@ -20,8 +21,8 @@ int main() {
 	std::cin >> count;
 	std::cout << "\n\nEnter list of numbers to be sorted : Algorithm - Quicksort Ascending " << std::endl;
 	for (int i = 0; i < count; i++) {
-		//std::cin >> value;
-		value = rand();
+		//std::cin >> value;	
+		value = rand();	//Here, I have randomised number entry (Not unifomly actually, but still will do)
 		vec.push_back(value);
 	}
 	std::cout << "\n\n";
