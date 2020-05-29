@@ -11,6 +11,6 @@ The neccesary point in this algorithm (and other non-comparison sorts)
 is that it uses extra space in form of two store arrays,
 one for keeping track of count and other for storing output.
 
-Compiler - MSVC-2015
+<strong>Compiler - MSVC-2015</strong>
 
-language - C++11
+<strong>language - C++11</strong>
