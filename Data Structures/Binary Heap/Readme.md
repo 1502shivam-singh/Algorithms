@@ -5,3 +5,5 @@ It is utilised as a data structure in an important sorting algorithm <strong>Hea
 Also it is utilised to implement a very important data structure called <strong>Prority Queue</strong>
 
 ![image](https://github.com/1502shivam-singh/Algorithms/blob/master/heap.gif)
+
+<strong>Above GIF explains the Heapsort algorithm visually and shows the use of a binary heap in it</strong> 
