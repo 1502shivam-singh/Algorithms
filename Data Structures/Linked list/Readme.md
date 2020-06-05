@@ -4,4 +4,4 @@ A <strong>linked list</strong> is a linear collection of data elements, <br>whos
 
 ![image](https://github.com/1502shivam-singh/Algorithms/blob/master/Data%20Structures/Linked%20list/LL.gif)
 
-<br><br><strong>A drawback of linked lists is that access time is linear (and difficult to pipeline).<br> Faster access, such as random access, is not feasible.</strong> Arrays have <br>better cache locality compared to linked lists. 
+<strong>A drawback of linked lists is that access time is linear (and difficult to pipeline). Faster access, such as random access, is not feasible.</strong> Arrays have <br>better cache locality compared to linked lists. 
