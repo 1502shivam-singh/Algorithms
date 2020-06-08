@@ -35,7 +35,6 @@ public:
 	
 	//~Linkedlist() {
 	//	linked_list* make_LL();
-	//	while()
 	//}
 };
 
