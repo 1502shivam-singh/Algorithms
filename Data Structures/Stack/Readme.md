@@ -5,6 +5,7 @@ A Stack is an abstract data type that serves as a collection of elements, with t
 <strong>Push</strong>, which adds an element to the collection<br>
 <strong>Pop</strong>, which removes the most recently added element that was not yet removed.
 
+<strong>(This GIF is taken from Google images just to explain the working of this data structure visually)</strong>
 ![image](https://github.com/1502shivam-singh/Algorithms/blob/master/Data%20Structures/Stack/stack.gif)
 
 The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out).
