@@ -104,11 +104,11 @@ void Tree::addnode( int data )
 		}
 	}
 	if (data >= tailptr->data) {
-		tailptr->right=ptr_store[ptr_store.size() - 1];
+		tailptr->right=ptr_store[ptr_s_size - 1];
 		ptr_store[ptr_s_size - 1]->head = tailptr;
 	}
 	else{
-		tailptr->left = ptr_store[ptr_store.size() - 1];
+		tailptr->left = ptr_store[ptr_s_size - 1];
 		ptr_store[ptr_s_size - 1]->head = tailptr;
 	}
 }
