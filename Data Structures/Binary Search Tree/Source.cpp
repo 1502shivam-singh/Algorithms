@@ -52,6 +52,7 @@ private:
 	};
 	std::vector<node*> ptr_store;
 	node* head = nullptr;
+	int ptr_s_size=ptr_store.size();
 
 public:
 	Tree() {};	//For creating only head
@@ -104,11 +105,11 @@ void Tree::addnode( int data )
 	}
 	if (data >= tailptr->data) {
 		tailptr->right=ptr_store[ptr_store.size() - 1];
-		ptr_store[ptr_store.size() - 1]->head = tailptr;
+		ptr_store[ptr_s_size - 1]->head = tailptr;
 	}
 	else{
 		tailptr->left = ptr_store[ptr_store.size() - 1];
-		ptr_store[ptr_store.size() - 1]->head = tailptr;
+		ptr_store[ptr_s_size - 1]->head = tailptr;
 	}
 }
 
