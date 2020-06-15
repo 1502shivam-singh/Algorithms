@@ -27,13 +27,13 @@
 				Tree():{};	//For creating only head
 				Tree(std::vector<Type> vec):this.vec{vec}{};	//For Creating whole tree
 			
-			node* makehead();	
+			node* makehead();	//Added
 
-			node* maketree();
+			node* maketree();	//Added
 		
-			addnode(data);
+			addnode(data);		//Added
 
-			deletenode(ptr);
+			deletenode(ptr);	//To be added
 		}
 	}
 
@@ -57,13 +57,13 @@ public:
 	Tree() {};	//For creating only head
 	Tree(std::vector<int> vec) : vec(vec){};	//For Creating whole tree
 
-	node* makehead(int data);
+	node* makehead(int data);	//Added
 
-	node* maketree();
+	node* maketree();		//Added
 
-	void addnode( int data );
+	void addnode( int data );	//Added
 
-	void deletenode(int pos);
+	void deletenode(int pos);	//To be added
 
 	~Tree() {
 		delete head;
