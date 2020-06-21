@@ -3,6 +3,7 @@
 #include<vector>
 
 /*
+	Psuedo code 
 	BSTs 
 	class{
 		object{
