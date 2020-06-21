@@ -32,10 +32,7 @@ public:
 	linked_list* make_LL_node(int i);
 
 	linked_list* make_LL();
-	
-	//~Linkedlist() {
-	//	linked_list* make_LL();
-	//}
+
 };
 
 template<typename T>
@@ -54,8 +51,7 @@ typename Linkedlist<T>::linked_list* Linkedlist<T>::make_LL(){
 	ptrs.push_back(make_LL_node(0));
 	for (int i = 0; i < blocks; i++) {
 		if (i == 0) {}
-		else {
-			//linked_list* store = make_LL_node(i);
+		else{
 			ptrs.push_back(make_LL_node(i));
 			ptrs[i]->next = ptrs[i - 1];
 		}
