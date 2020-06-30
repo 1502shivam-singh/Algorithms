@@ -7,7 +7,7 @@
 int Binary_Search(const std::vector<int>&, int, int, int);  //Function declartion for Binary search 
 
 int main() {
-	std::vector<int> vector{ 2,3,4,5,6,7,8,9,10,11,12,34,556,780,1000,1001,2000,3000,4000,5000,6000,7000,8000,9000};
+	std::vector<int> vector{ 2,3,4,5,6,7,8,9,10,11,12,34,556,780,1000,1001,2000,3000,4000,5000,6000,7000,8000,9000};	//input array must be sorted for the algorithm to work
 	std::cout << Binary_Search(vector, 8, 0, vector.size() - 1);
 	_getch();
 }
