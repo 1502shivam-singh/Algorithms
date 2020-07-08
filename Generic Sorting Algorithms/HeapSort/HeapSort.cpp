@@ -40,11 +40,15 @@ public:
 	}
 
 	int parent(int i) {
-		if ((i/2 + 1) <= size - 1) {
-			return i/2 + 2;
+		if(i==0){
+			return 0;
 		}
-		else { return 0; }
+		else if (i%2==0) {
+			return i/2 - 1;
+		}
+		else { return i/2; }
 	}
+	
 	int maxoff(std::vector<int>& vec,int n1, int n2,int n3,int heapsize) {
 		if (((vec[n1] >= vec[n2])&&(n1<heapsize&&n2<heapsize))&&((vec[n1] >= vec[n3])&&(n1<heapsize&&n3<heapsize))) { return n1; }
 		else if ((vec[n2] >= vec[n3])&&(n2<heapsize&&n3<heapsize)) { return n2; }
