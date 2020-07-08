@@ -2,11 +2,14 @@
 #include<conio.h>
 #include<vector>
 
-//TODO : 1) Max heapify function ,2) New Max heap creator 
-// 3), Heapsort(){	New Max heap creator{Max heapify function};
-//					for(n.....2)
-//						swap top node in heap with last;
-//						New Max heap creator{ MHF }		   }
+/*TODO : 1) Max heapify function 
+	 2) New Max heap creator 
+ 	 3) Heapsort(){
+ 		New Max heap creator{Max heapify function};
+			for(n.....2)
+			swap top node in heap with last;
+			New Max heap creator{ MHF }		   
+		}*/	
 
 class heap {
 private:
