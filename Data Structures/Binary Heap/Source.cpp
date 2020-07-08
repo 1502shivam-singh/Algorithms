@@ -45,10 +45,13 @@ public:
 	}
 
 	int parent(int i) {
-		if ((i/2 + 1) <= size - 1) {
-			return i/2 + 2;
+		if(i==0){
+			return 0;
 		}
-		else { return 0; }
+		else if (i%2==0) {
+			return i/2 - 1;
+		}
+		else { return i/2; }
 	}
   
 	int maxoff(std::vector<int>& vec,int n1, int n2,int n3,int heapsize) {
