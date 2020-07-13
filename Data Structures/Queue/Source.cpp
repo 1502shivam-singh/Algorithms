@@ -49,8 +49,8 @@ int main() {
 	int size;
 	std::vector<int> vec;
 	std::cout << "Enter the number of elements to be stored in the queue" << std::endl;
-	std::cin >> size;
-	Queue* entity = new Queue(vec,size);
+	std::cin >> size;	//Size of the queue entered here 
+	Queue* entity = new Queue(vec,size);	
 	entity->make_queue();
 	entity->enqueue(6);
 	entity->dequeue();
