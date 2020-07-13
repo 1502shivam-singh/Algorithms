@@ -52,8 +52,8 @@ int main() {
 	std::cin >> size;	//Size of the queue entered here 
 	Queue* entity = new Queue(vec,size);	
 	entity->make_queue();
-	entity->enqueue(6);
-	entity->dequeue();
-	entity->print_queue();
+	entity->enqueue(6);	//Added 6 to the queue
+	entity->dequeue();	//Removing 6, first added element
+	entity->print_queue();	//Prints the queue (empty in this case)
 	_getch();
 }
