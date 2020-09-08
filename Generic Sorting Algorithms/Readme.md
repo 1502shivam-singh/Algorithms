@@ -1,1 +1,10 @@
-<h4> Implemented Generic Sorting Algorithms from scratch in C/C++</h4>
+# Generic sorting algorithms
+
+Currently included algorithms - <br>
+<ul>
+  <li>Insertion sort</li>
+  <li>Merge sort</li>
+  <li>Heap sort</li>
+  <li>Counting sort</li>
+  <li>Quick sort</li>
+</ul>
