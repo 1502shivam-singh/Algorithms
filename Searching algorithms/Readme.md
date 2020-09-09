@@ -7,3 +7,5 @@ Currently included algorithms - <br>
   <li>Linear search</li>
   <li>Binary search</li>
 </ul>
+
+Compiler used - MSVC-2019 (Microsoft Visual Studio 2019)
