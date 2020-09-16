@@ -1,7 +1,7 @@
 #include <iostream>
 #include <list>
-#include <array>
 #include <vector>
+
 /*
 graphNode in it self is a good set structure
 Constructor needs	
@@ -15,7 +15,6 @@ class graphNode {
 private:	
 	
 	bool color = 0;
-	
 	int dist;
 	
 public:
@@ -39,7 +38,7 @@ graph -
 */
 template<typename T>
 class graph {
-	friend graphNode<T>;
+	//friend graphNode<T>;
 private:
 	std::vector<graphNode<T>*> graphList;
 public:
