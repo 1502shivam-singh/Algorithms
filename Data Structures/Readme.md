@@ -7,6 +7,7 @@ Currently included data structures - <br>
   <li>Linked list</li>
   <li>Binary search tree</li>
   <li>Binary heap</li>
+  <li>Graph</li>
 </ul>
 
 Compiler used - MSVC-2019 (Microsoft Visual C++ 2019)
