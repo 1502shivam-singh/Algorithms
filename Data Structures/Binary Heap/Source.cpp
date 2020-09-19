@@ -1,8 +1,8 @@
 #include<iostream>
-#include<conio.h>
 #include<vector>
 
-/*TODO : 1) Max heapify function 
+/*Class structure : 
+	 1) Max heapify function 
 	 2) New Max heap creator 
  	 3) Heapsort(){
  		New Max heap creator{Max heapify function};
@@ -107,7 +107,7 @@ int main() {
 	for (int i = 0; i < count;i++) {
 		std::cout << vec[i] << " ";
 	}
-	_getch();
+	std::cin.get();
 }
 
 
