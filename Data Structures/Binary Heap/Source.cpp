@@ -60,7 +60,9 @@ public:
 		else if(n3<=heapsize) return n3;
 	}
   
-	~heap(){}
+	~heap(){
+		delete this;
+	}
 };
 
 
@@ -105,7 +107,6 @@ int main() {
 	for (int i = 0; i < count;i++) {
 		std::cout << vec[i] << " ";
 	}
-	Heap->~heap();
 	_getch();
 }
 
