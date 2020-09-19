@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 #include<vector>
 
 /*
@@ -68,7 +67,7 @@ public:
 	void deletenode(int pos);	//To be added
 
 	~Tree() {
-		delete head;
+		delete this;
 	}
 };
 
@@ -126,5 +125,5 @@ int main() {
 	tree->addnode(-2);
 	tree->addnode(0);
 	tree->~Tree();
-	_getch();
+	std::cin.get();
 }
