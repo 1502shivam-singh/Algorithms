@@ -12,4 +12,14 @@ Sorting algorithms included<br>
   <li>Quick-sort</li>
 </ul>
 
+Data-structures included<br>
+<ul>
+  <li>Binary-heap</li>
+  <li>Binary search tree</li>
+  <li>Graphs</li>
+  <li>Linked list</li>
+  <li>Queue</li>
+  <li>Stack</li>
+</ul>
+
 New algorithms will be added continually.
