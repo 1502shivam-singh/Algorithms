@@ -22,4 +22,10 @@ Data-structures included<br>
   <li>Stack</li>
 </ul>
 
+Searching algorithms included<br>
+<ul>
+  <li>Binary-search</li>
+  <li>Linear-search</li>
+</ul>
+
 New algorithms will be added continually.
