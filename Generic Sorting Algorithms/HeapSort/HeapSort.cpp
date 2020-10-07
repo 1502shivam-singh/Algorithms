@@ -13,7 +13,7 @@
 
 class heap {
 private:
-	std::vector<int> vec;
+	std::vector<int> vec;	//The underlying container of the heap
 	int size = vec.size();
 	int heap_size = size;
 	
