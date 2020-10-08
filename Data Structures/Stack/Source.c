@@ -46,12 +46,17 @@ void push(int value) {
 void pop() {
 	if (size > 0) {
 		ptrR = realloc(ptrR, (size - 1) * sizeof(item));	//shrinks the array by 1
-		size--;
-		if (size > 0) {
-			peek = &ptrR[size - 1];
+		if (ptrR == NULL) {
+			free(ptrR);
 		}
 		else {
-			peek = NULL;
+			size--;
+			if (size > 0) {
+				peek = &ptrR[size - 1];
+			}
+			else {
+				peek = NULL;
+			}
 		}
 	}
 	else {
