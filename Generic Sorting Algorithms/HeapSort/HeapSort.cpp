@@ -2,15 +2,18 @@
 #include<conio.h>
 #include<vector>
 
-//TODO : 1) Max heapify function ,2) New Max heap creator 
-// 3), Heapsort(){	New Max heap creator{Max heapify function};
-//					for(n.....2)
-//						swap top node in heap with last;
-//						New Max heap creator{ MHF }		   }
+/*TODO : 1) Max heapify function 
+	 2) New Max heap creator 
+ 	 3) Heapsort(){
+ 		New Max heap creator{Max heapify function};
+			for(n.....2)
+			swap top node in heap with last;
+			New Max heap creator{ MHF }		   
+		}*/	
 
 class heap {
 private:
-	std::vector<int> vec;
+	std::vector<int> vec;	//The underlying container of the heap
 	int size = vec.size();
 	int heap_size = size;
 	
@@ -40,11 +43,15 @@ public:
 	}
 
 	int parent(int i) {
-		if ((i/2 + 1) <= size - 1) {
-			return i/2 + 2;
+		if(i==0){
+			return 0;
 		}
-		else { return 0; }
+		else if (i%2==0) {
+			return i/2 - 1;
+		}
+		else { return i/2; }
 	}
+	
 	int maxoff(std::vector<int>& vec,int n1, int n2,int n3,int heapsize) {
 		if (((vec[n1] >= vec[n2])&&(n1<heapsize&&n2<heapsize))&&((vec[n1] >= vec[n3])&&(n1<heapsize&&n3<heapsize))) { return n1; }
 		else if ((vec[n2] >= vec[n3])&&(n2<heapsize&&n3<heapsize)) { return n2; }

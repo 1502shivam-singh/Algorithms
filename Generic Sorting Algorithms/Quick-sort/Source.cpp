@@ -13,14 +13,14 @@ QuickSort(Arr&,last){
 	QuickSort(Arr&,last_right);
 }
 
-Partition algo. needs triple swapper(for lomuto partition)
+Partition algo. needs swapper(for lomuto partition)
 
 
 
 Partition function(){
 //loop start .. end;
 	if->vec[start]>=vec[end];
-	{tripleswapper(start,end);}
+	{swapper(start,end);}
 	else{Do nothing;]
 	}
 */
