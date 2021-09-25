@@ -1,25 +1,24 @@
+/*
+Algorithm explained
+str = abcdeefgh
+      ^(1)
+
+matchStr = def
+	   ^(2)
+stages -
+   nm (not match)
+   nm
+   nm
+   m  (put in string matching mode, both 1 and 2 ptr move, set a holdPtr in str from strmatch start)
+   m  (keep moving 1 and 2)
+   nm (stop (if notMatch localised to string matching mode), in same iteration move 2 back to start and check 1 and 2, if match start same cycle(move holdPtr too in this case, first set to -1 and if match set to the 1 ptr index))
+*/
+
 #include <iostream>
 #include <string>
 
 int stringMatcher(std::string& str, std::string& matchStr) 
 {
-	/*
-	Algorithm explained
-	str = abcdeefgh
-	      ^(1)
-
-	matchStr = def
-	           ^(2)
-	stages -
-	nm (not match)
-	nm
-	nm
-	m  (put in string matching mode, both 1 and 2 ptr move, set a holdPtr in str from strmatch start)
-	m  (keep moving 1 and 2)
-	nm (stop (if notMatch localised to string matching mode), in same iteration move 2 back to start and check 1 and 2, if match start same cycle(move holdPtr too in this case, first set to -1 and if match set to the 1 ptr index))
-		
-	*/
-
 	int ptr1 = 0, ptr2 = 0, ptr3 = 0;
 	bool sMode = false;
 	for (int ptr1 = 0; ptr1<str.size(); ptr1++)
